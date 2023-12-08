@@ -12,12 +12,15 @@ class IntroScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view = contentView
         contentView.delegate = self
+        view = contentView
         setupView()
+        
     }
     
-    private func setupView() {}
+    private func setupView() {
+        setupConstraints()
+    }
     
     private func setupConstraints() {}
     
@@ -25,8 +28,7 @@ class IntroScreenViewController: UIViewController {
 
 extension IntroScreenViewController: IntroScreenDelegate {
     func navigateAction() {
-        self.navigationController?.pushViewController(IntroScreenViewController(), animated: true)
-        print("Delegate implementation")
+        self.navigationController?.pushViewController(DetailsScreenViewController(), animated: true)
     }
 }
 

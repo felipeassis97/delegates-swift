@@ -16,6 +16,7 @@
 		EBA3DB1B2B21F17A000375B5 /* IntroScreenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3DB1A2B21F17A000375B5 /* IntroScreenDelegate.swift */; };
 		EBA3DB1F2B21F8C8000375B5 /* DetailsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3DB1E2B21F8C8000375B5 /* DetailsScreenViewController.swift */; };
 		EBA3DB212B21F974000375B5 /* DetailsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3DB202B21F974000375B5 /* DetailsScreenView.swift */; };
+		EBA3DB232B225272000375B5 /* DetailsScreenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3DB222B225272000375B5 /* DetailsScreenDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EBA3DB1A2B21F17A000375B5 /* IntroScreenDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenDelegate.swift; sourceTree = "<group>"; };
 		EBA3DB1E2B21F8C8000375B5 /* DetailsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenViewController.swift; sourceTree = "<group>"; };
 		EBA3DB202B21F974000375B5 /* DetailsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenView.swift; sourceTree = "<group>"; };
+		EBA3DB222B225272000375B5 /* DetailsScreenDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				EBA3DB1E2B21F8C8000375B5 /* DetailsScreenViewController.swift */,
 				EBA3DB202B21F974000375B5 /* DetailsScreenView.swift */,
+				EBA3DB222B225272000375B5 /* DetailsScreenDelegate.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				EBA3DB192B21F084000375B5 /* IntroScreenView.swift in Sources */,
 				EBA3DB1B2B21F17A000375B5 /* IntroScreenDelegate.swift in Sources */,
 				EBA3DB212B21F974000375B5 /* DetailsScreenView.swift in Sources */,
+				EBA3DB232B225272000375B5 /* DetailsScreenDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
